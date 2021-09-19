@@ -53,3 +53,9 @@ Nesse curso será apresentado:
 - Criação dinâmica de getters
 - O uso de Object.defineProperty
 - Cache de decorators
+### Aula 4
+
+- API externa
+- Consumindo API externa
+- Definindo uma interface para a API
+- Isolando o acesso à API em um serviço
