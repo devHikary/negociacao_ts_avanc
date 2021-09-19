@@ -14,9 +14,21 @@ Nesse curso será apresentado:
 
 ## 🛠️ Abrir e rodar o projeto
 
+### Aplicação
+
 - Clonar o projeto
 - Entrar na pasta do projeto
+- Instalar as dependências `npm install`
 - Rodar o comando `npm run start`
+- Aplicação vai rodar na porta 3000
+
+### Servidor
+
+- Clonar o projeto
+- Entrar na pasta do projeto **servidor-api**
+- Instalar as dependências `npm install`
+- Rodar o comando `npm start`
+- Servidor vai rodar na porta 8080
 
 ## 🗒️ Tópicos da aula
 
