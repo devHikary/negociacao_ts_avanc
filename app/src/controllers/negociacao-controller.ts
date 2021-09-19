@@ -1,3 +1,4 @@
+import { NegociacoesDoDia } from './../interfaces/negociacao-do-dia.js';
 import { domInjector } from '../decorators/dom-injector.js';
 import { inspect } from '../decorators/inspect.js';
 import { logarTempoDeExecucao } from '../decorators/logar-tempo-de-execucao.js';
@@ -53,7 +54,7 @@ export class NegociacaoController {
       .then(res =>{
         return res.json();
       })
-      .then((dados: any[]) => {
+      .then((dados: NegociacoesDoDia[]) => {
         return dados.map(dadoDeHoje => {
           return new Negociacao(
             new Date(), 
