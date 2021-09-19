@@ -34,3 +34,10 @@ Nesse curso será apresentado:
 - Ordem de execução dos decorators
 - Simplicação no design de decorators
 - Portabilidade de funcionalidade antiga para decorators
+### Aula 3
+
+- Como evitar código duplicado
+- Decorator de propriedade
+- Criação dinâmica de getters
+- O uso de Object.defineProperty
+- Cache de decorators
